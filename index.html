@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>SSS-IT Copy</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./index.css">
+        <link rel="stylesheet" href="./css/nav.css">
+        <link rel="stylesheet" href="./css/slider.css">
+    </head>
+    <body>
+        <header class="nav center">
+            <div class="container nav_flex">
+                <img src="./img/ssslogo.png" class="logo">
+                <h3 class="nav_description">Beratung, Entwicklung, Test, Betrieb für erfolgskritische Projekte</h3>
+                <div class="nav_links">
+                    <div class="nav_link">
+                        Start
+                    </div>
+                    <div class="nav_link">
+                        Leistungen
+                    </div>
+                    <div class="nav_link">
+                        Kunden
+                    </div>
+                    <div class="nav_link">
+                        Über uns
+                    </div>
+                    <div class="nav_link">
+                        Kontakt
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="swiper">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide first_sl"></div>
+                    <div class="swiper-slide second_sl"></div>
+                    <div class="swiper-slide three_sl"></div>
+                </div>
+
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+        <script src="./swiper/swiper-bundle.min.js"></script>
+        <link rel="stylesheet" href="./swiper/swiper-bundle.min.css">
+        <script>
+            const swiper = new Swiper('.swiper-container', {
+            direction: 'horizontal',
+            loop: true,
+
+            pagination: {
+                el: '.swiper-pagination',
+            },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+            // And if we need scrollbar
+            scrollbar: {
+                el: '.swiper-scrollbar',
+            },
+            });
+        </script>
+    </body>
+</html>
