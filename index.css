@@ -42,6 +42,10 @@ p, a {
     max-width: 1180px;
     position: relative;
 }
+
+.hideContainer {
+    max-width: 1200px;
+}
   
 .center {
     align-items: center;
@@ -78,4 +82,8 @@ p, a {
 
 .noMT {
     margin-top: 0;
+}
+
+.hideLogo {
+    top: 13%;
 }

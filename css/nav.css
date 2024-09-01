@@ -49,3 +49,48 @@
     cursor: pointer;
     font-weight: 600;
 }
+
+@keyframes hideNavIn {
+    0% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+        transform: translateY(0%);
+    }
+}
+
+@keyframes hideNavOut {
+    0% {
+        transform: translateY(0%);
+    }
+
+    100% {
+        transform: translateY(-100%);
+    }
+}
+
+.nav_hide {
+    width: 100%;
+    height: 3.4em;
+    position: fixed;
+    z-index: 999999;
+    background: #F7F7F7;
+    padding: 0;
+    margin: 0;
+    padding-top: 0.2em;
+    display: none;
+    /*animation-duration: 1s;
+    animation-name: hideNavOut;
+    animation-iteration-count: infinite;*/
+}
+
+.hNL {
+    height: 2.5em;
+    width: 9em;
+}
+
+.hNL:nth-child(2) {
+    width: 9.5em;
+    margin-left: 1em;
+}
