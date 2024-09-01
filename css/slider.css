@@ -38,19 +38,29 @@
     background-image: url("../img/staerken.jpg");
     background-position: center;
     background-size: cover;
-    background-size: no-repeat;
 }
 
 .second_sl {
     background-image: url("../img/begeisterung.jpg");
-    background-position: center;
+    background-position: 20% 20%;
     background-size: cover;
-    background-size: no-repeat;
 }
 
 .three_sl {
     background-image: url("../img/technologien.jpg");
     background-position: center;
     background-size: cover;
-    background-size: no-repeat;
+}
+
+.swiper-button-next { 
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.swiper-button-next::after {
+    color: black;
+    max-width: 150px;
+    max-height: 150px;
+    display: block;
+    text-align: center;
+    align-items: center;
 }
