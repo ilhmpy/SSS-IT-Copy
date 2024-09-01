@@ -2,6 +2,7 @@ body {
     width: 100%;
     margin: 0;
     overflow-x: hidden;
+    height: 2000px;
 }
 
 a {
@@ -52,4 +53,29 @@ p, a {
     top: 20%;
     left: 2%;
     margin: 0 auto;
+}
+
+.absolutediv {
+    position: absolute;
+    height: auto;
+    top: 20%;
+    margin: 0 auto;
+    user-select: none;
+    order: 99999;
+}
+
+.second_absdv {
+    top: 15%;
+}
+
+.white {
+    color: white;
+}
+
+.noMB {
+    margin-bottom: 0 !important;
+}
+
+.noMT {
+    margin-top: 0;
 }
