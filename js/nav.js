@@ -1,5 +1,15 @@
 window.addEventListener("load", () => {
     const navHide = document.querySelector("#nav_hide").style;
+    const links = ["index", "leistungen", "kunden", "ueber-uns", "kontakt"];
+    const href = window.location.href;
+
+    links.forEach((elm) => {
+        if (href.includes(elm)) {
+            document.querySelectorAll(`.${elm}`).forEach((link) => {
+                link.classList.add("focused");
+            })
+        }
+    })
 
     document.addEventListener("scroll", () => {
         const scroll = window.scrollY;

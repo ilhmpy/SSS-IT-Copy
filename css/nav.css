@@ -1,5 +1,6 @@
 .nav {
     background:#F7F7F7;
+    user-select: none;
 }
 
 .nav_description {
@@ -90,4 +91,8 @@
 .hNL:nth-child(2) {
     width: 9.5em;
     margin-left: 1em;
+}
+
+.focused {
+    border-bottom: 2px solid black;
 }
