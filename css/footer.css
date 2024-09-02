@@ -16,6 +16,7 @@
 .footer-column_title {
     color: #5588A3;
     font-weight: 300;
+    user-select: none;
 }
 
 .footer-column_text {
