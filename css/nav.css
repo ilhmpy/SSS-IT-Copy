@@ -75,14 +75,11 @@
     height: 3.4em;
     position: fixed;
     z-index: 999999;
-    background: #F7F7F7;
+    background: white;
     padding: 0;
     margin: 0;
     padding-top: 0.2em;
     display: none;
-    /*animation-duration: 1s;
-    animation-name: hideNavOut;
-    animation-iteration-count: infinite;*/
 }
 
 .hNL {
