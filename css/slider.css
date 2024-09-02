@@ -26,16 +26,8 @@
     bottom: 8%;
 }
 
-.swiper-button-next { 
-    background: rgba(255, 255, 255, 0.5);
-}
-
-.swiper-button-prev { 
-    background: rgba(255, 255, 255, 0.5);
-}
-
 .swiper-button-next::after {
-    color: black;
+    color: rgb(85, 136, 163);
     max-width: 150px;
     max-height: 150px;
     display: block;
@@ -44,7 +36,7 @@
 }
 
 .swiper-button-prev::after {
-    color: black;
+    color: rgb(85, 136, 163);
     max-width: 150px;
     max-height: 150px;
     display: block;
