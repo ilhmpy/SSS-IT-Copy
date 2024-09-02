@@ -89,6 +89,7 @@ p, a {
 
 a {
     cursor: pointer;
+    outline: none;
 }
 
 .emailLink {
