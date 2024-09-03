@@ -1,0 +1,11 @@
+.historie {
+    padding-top: 1.2em;
+    padding-bottom: 2.8em;
+}
+
+.historie_container > ul {
+    margin-top: .5em;
+    font-size: 1.2em;
+    color: #404040;
+    line-height: 1.5em;
+}

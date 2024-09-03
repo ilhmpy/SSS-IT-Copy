@@ -16,3 +16,15 @@
     font-weight: 500;
     color: rgba(64, 64, 64, 1);
 }
+
+.lhG { 
+    line-height: 1.4em;
+}
+
+.noMT {
+    margin-top: 0;
+}
+
+.sMB {
+    margin-bottom: .6em;
+}
