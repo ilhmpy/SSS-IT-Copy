@@ -1,0 +1,82 @@
+.kunden-list_item {
+    margin-bottom: 2.2em;
+}
+
+.kunden-list_item-imgContainer {
+    position: relative;
+}
+
+.kunden-list_item-img {
+    margin-bottom: 0.7em;
+    cursor: pointer;
+}
+
+#stihl {
+    max-width: 155px;
+}
+
+#ams {
+    max-width: 199px;
+}
+
+#cp {
+    max-width: 200px;
+}
+
+#kh {
+    max-width: 300px;
+}
+
+#tel {
+    max-width: 235px;
+}
+
+#trw {
+    max-width: 95px;
+}
+
+.kunden-list_item-img::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 4px;
+    background-color: rgb(85, 136, 163);
+    opacity: 0%;
+}
+
+@keyframes imgBorder {
+    0% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+.kunden-list_item-img:hover::after {
+    animation: imgBorder 0.5s forwards;
+}
+
+.kunden-list_item-title {
+    font-weight: 700;
+    margin-top: .3em;
+    margin-bottom: .3em;
+}
+
+.kunden-list_item-desc {
+    font-weight: 300;
+    font-size: 1em;
+    margin-top: 0;
+    line-height: 1.7em;
+}
+
+.noMB {
+    margin-bottom: 0;
+}
+
+.kunden-list_item-containers {
+    display: flex;
+    flex-direction: row;
+}

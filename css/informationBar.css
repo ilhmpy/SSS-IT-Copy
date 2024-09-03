@@ -108,3 +108,14 @@
     font-weight: normal;
     font-style: normal;
 }
+
+.softwaretestGrid {
+    justify-items: center;
+    grid-template-columns: 50% auto;
+    gap: 1em;
+    font-weight: 200;
+}
+
+.kontaktP {
+    padding-top: 3em;
+}

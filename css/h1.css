@@ -1,0 +1,12 @@
+.kunden-title {
+    width: 100%;
+    height: auto;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+    font-size: 1.55em;
+}
+
+.kunden-title > h2 {
+    font-weight: 300;
+}

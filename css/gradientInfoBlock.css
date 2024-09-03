@@ -27,5 +27,16 @@
 }
 
 .leistGradientTitle {
-    font-size: 1.1em;
+    font-size: 1.2em;
+}
+
+.gradient-info-block_desc {
+    font-size: 1.2em;
+    font-weight: 200;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.mehrwertTitle {
+    margin-bottom: .3em;
 }
