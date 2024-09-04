@@ -1,0 +1,26 @@
+.kontakt {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.kontakt > div {
+    max-width: 1130px;
+}
+
+.kontakt-title {
+    font-weight: 300;
+    font-size: 2em;
+    margin-bottom: 1.2em;
+}
+
+.kontakt-desc {
+    font-weight: 300;
+    line-height: 1.5em;
+    color: #404040;
+    margin-bottom: 1.9em;
+}
+
+.company-adress {
+    padding-left: 1.5em;
+    margin-top: 4.5em;
+}

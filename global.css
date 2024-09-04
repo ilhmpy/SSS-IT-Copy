@@ -102,3 +102,11 @@ a {
     background: rgba(80, 140, 190, 1);
     color: white;
 }
+
+.MB {
+    margin-bottom: 4em;
+}
+
+.sFS {
+    font-size: 1.4em;
+}
