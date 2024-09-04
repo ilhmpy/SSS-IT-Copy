@@ -2,55 +2,99 @@
     <head>
         <meta charset="utf-8">
         <title>SSS-IT Copy</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="stylesheet" href="./global.css">
         <link rel="stylesheet" href="./css/nav.css">
         <link rel="stylesheet" href="./css/slider.css">
         <link rel="stylesheet" href="./css/informationBar.css">
         <link rel="stylesheet" href="./css/gradientInfoBlock.css">
+        <link rel="stylesheet" href="./css/adoptive.css">
         <link rel="stylesheet" href="./css/footer.css">
     </head>
     <body>
-        <header class="nav_hide center" id="nav_hide" >
-            <div class="container hideContainer nav_links">
-                <img src="./img/ssslogoklein.png" class="logo hideLogo">
-                <a href="./index.html" class="nav_link hNL link index">
-                    Start
-                </a>
-                <a href="./leistungen.html" class="nav_link hNL link leistungen">
-                    Leistungen
-                </a>
-                <a href="./kunden.html" class="nav_link hNL link kunden">
-                    Kunden
-                </a>
-                <a href="./ueber-uns.html" class="nav_link hNL link ueber-uns">
-                    Über uns
-                </a>
-                <a href="./kontakt.html" class="nav_link hNL link kontakt">
-                    Kontakt
-                </a>
-            </div>
-        </header>
-        <header class="nav center">
-            <div class="container nav_flex">
-                <img src="./img/ssslogo.png" class="logo">
-                <h3 class="nav_description">Beratung, Entwicklung, Test, Betrieb für erfolgskritische Projekte</h3>
-                <div class="nav_links">
-                    <a href="./index.html" class="nav_link link index">
+        <header class="nav_hide navHideAdoptive center" id="nav_hide" >
+            <div class="container">
+                <div class="hideContainer nav_links">
+                    <img src="./img/ssslogoklein.png" class="logo hideLogo">
+                    <a href="./index.html" class="nav_link hNL link index">
                         Start
                     </a>
-                    <a href="./leistungen.html" class="nav_link link leistungen">
+                    <a href="./leistungen.html" class="nav_link hNL link leistungen">
                         Leistungen
                     </a>
-                    <a href="./kunden.html" class="nav_link link kunden">
+                    <a href="./kunden.html" class="nav_link hNL link kunden">
                         Kunden
                     </a>
-                    <a href="./ueber-uns.html" class="nav_link link ueber-uns">
+                    <a href="./ueber-uns.html" class="nav_link hNL link ueber-uns">
                         Über uns
                     </a>
-                    <a href="./kontakt.html" class="nav_link link kontakt">
+                    <a href="./kontakt.html" class="nav_link hNL link kontakt">
                         Kontakt
                     </a>
+                </div>
+                <div class="nav_links-adoptive">
+                    <img src="./img/ssslogoklein.png" class="hideLogo">
+                    <div class="nav-menu-bar hideMenuBar" id="nav-menu-bar">
+                        <div>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <header class="nav_hide-adoptive" id="nav_hide-adoptive">
+            <div class="nav_hide-adoptive-container">
+                <div class="nav_hide-adoptive_closebar closeBarBtn" id="closeBar"></div>
+                <div class="nav_hide-adoptive-links">
+                    <a href="./index.html" class="nav_link hNL link index">
+                        Start
+                    </a>
+                    <a href="./leistungen.html" class="nav_link hNL link leistungen">
+                        Leistungen
+                    </a>
+                    <a href="./kunden.html" class="nav_link hNL link kunden">
+                        Kunden
+                    </a>
+                    <a href="./ueber-uns.html" class="nav_link hNL link ueber-uns">
+                        Über uns
+                    </a>
+                    <a href="./kontakt.html" class="nav_link hNL link kontakt">
+                        Kontakt
+                    </a>
+                </div>
+            </div>
+            <div class="nav_hide-adoptive-background closeBarBtn"></div>
+        </header>
+        <header class="nav center">
+            <div class="container">
+                <div class="nav_flex">
+                    <img src="./img/ssslogo.png" class="logo">
+                    <h3 class="nav_description">Beratung, Entwicklung, Test, Betrieb für erfolgskritische Projekte</h3>
+                    <div class="nav_links">
+                        <a href="./index.html" class="nav_link link index">
+                            Start
+                        </a>
+                        <a href="./leistungen.html" class="nav_link link leistungen">
+                            Leistungen
+                        </a>
+                        <a href="./kunden.html" class="nav_link link kunden">
+                            Kunden
+                        </a>
+                        <a href="./ueber-uns.html" class="nav_link link ueber-uns">
+                            Über uns
+                        </a>
+                        <a href="./kontakt.html" class="nav_link link kontakt">
+                            Kontakt
+                        </a>
+                    </div>
+                </div>
+                <div class="nav_adoptive">
+                    <img src="./img/ssslogo.png" class="logo">
+                    <div class="nav-menu-bar">
+                        <div>
+                            <span></span>
+                        </div>
+                    </div>
                 </div>
             </div>
         </header>
@@ -116,7 +160,7 @@
         </div>
         <div class="information-bar center">
             <div class="container information-bar_flex">
-                <img src="./img/software_green.png">
+                <img class="img" src="./img/software_green.png">
                 <div class="information-bar_text">
                     <h1 class="information-bar_h1">Kurzbeschreibung</h1>
                     <h3 class="information-bar_green-title">
@@ -158,7 +202,7 @@
                     </h3>
                     <a href="./leistungen.html" class="information-bar_button link">MEHR ></a>
                 </div>
-                <img src="./img/plan2.jpg">
+                <img class="img" src="./img/plan2.jpg">
             </div>
         </div>
         <div class="gradient-info-block center">
@@ -180,7 +224,7 @@
         </div>
         <div class="information-bar center FFc">
             <div class="container information-bar_flex">
-                <img src="./img/pixabay.jpg">
+                <img class="img" src="./img/pixabay.jpg">
                 <div class="information-bar_text">
                     <h1 class="information-bar_h1 aboutUsMB">Über uns</h1>
                     <h3 class="information-bar_text-h3 aboutUsH3">
@@ -192,7 +236,7 @@
             </div>
         </div>
         <div class="information-bar center infoMB">
-            <div class="container information-bar_flex">
+            <div class="container information-bar_flex rightAlignBlock">
                 <div class="information-bar_text centerAlignInfo">
                     <h1 class="information-bar_h1 rightAlignTitle contactTitle">Nehmen Sie Kontakt auf!</h1>
                     <h3 class="information-bar_text-h3 centerAlignText">
@@ -209,7 +253,7 @@
                     </h3>
                     <a href="./kontakt.html" class="information-bar_button link">KONTAKT ></a>
                 </div>
-                <img src="./img/woman.jpg">
+                <img class="img" src="./img/woman.jpg">
             </div>
         </div>
         <footer class="footer center">

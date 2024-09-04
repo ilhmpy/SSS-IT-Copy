@@ -18,12 +18,14 @@
     background-image: 
         linear-gradient(rgba(51, 76, 97, 0.6), rgba(51, 76, 97, 0.6)), url("../img/begeisterung.jpg");
     bottom: 8%;
+    background-size: 100%;
 }
 
 .three_sl {
     background-image: 
         linear-gradient(rgba(51, 76, 97, 0.6), rgba(51, 76, 97, 0.6)), url("../img/technologien.png");
     bottom: 8%;
+    background-size: 100%;  
 }
 
 .swiper-button-next::after {

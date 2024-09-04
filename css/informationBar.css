@@ -123,3 +123,24 @@
 .ueberUnsText {
     width: 100%;
 }
+
+@media screen and (min-width: 720px) and (max-width: 1200px) {
+    .information-bar_flex {
+        grid-template-columns: 28% 30%;
+        justify-content: center;
+    }
+
+    .rightAlignBlock {
+        grid-template-columns: 80% 30%;
+        gap: 0;
+    }
+
+    .rightAlignInfoFlex {
+        gap: 1.2em;
+    }
+
+    .rightAlignTitle {
+        height: auto;
+        line-height: 1.4em;
+    }
+} 
