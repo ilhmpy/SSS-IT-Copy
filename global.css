@@ -60,15 +60,12 @@ p, a {
 
 .absolutediv {
     position: absolute;
-    height: auto;
-    top: 15em;
+    top: 30%;
+    bottom: 0;
     margin: 0 auto;
     user-select: none;
     order: 99999;
-}
-
-.second_absdv {
-    top: 12.9em;
+    max-height: 15em;
 }
 
 .white {
