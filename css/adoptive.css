@@ -12,25 +12,14 @@
 }
 
 
-@media screen and (max-width: 970px) {
+@media screen and (max-width: 1200px) {
     .center {
         width: 100%;
     }
     
     .img {
-        width: 20px;
-    }
-
-    .information-bar {
-        font-size: 0.2em;
-    }
-
-    .footer {
-        font-size: 0.2em;
-    }
-
-    .gradient-info-block {
-        font-size: 0.2em;
+        width: 100%;
+        height: 100%;
     }
 
     /* NAV */
@@ -228,7 +217,10 @@
     .absolutediv {
         top: 7em;
     }
-
+    
+    /* NAV END */
+    /* SWIPER */
+    
     .swiper {
         max-height: 25em;
     }
@@ -261,5 +253,76 @@
     .three_sl {
         background-size: cover;
     }   
+
+    /*SWIPER END*/
+    /*INFORMATION BAR*/
+
+    .information-bar_flex {
+        display: flex;
+        flex-direction: column;
+        gap: 1.8em;
+    }
+
+    .rightAlignTitle {
+        line-height: 1.2em;
+    }
+
+    .womanImg {
+        display: none;
+    }
+
+    .gradient-info-block_title {
+        font-size: 1.5em;
+    }
+
+    /* INFORMATION BAR END */
+    /* FOOTER */
+
+    .adoptiveNone {
+        display: none;
+    }
+
+    .footer_flex {
+        justify-content: center;
+    }
+
+    .footer-column_title {
+        font-size: 1.5em;
+    }
+
+    .footer-column_links {
+        text-align: center;
+    }
+
+    /* FOOTER END */
+
+    .leist-profile_h3 {
+        line-height: 1em;
+    }
 }
 
+@media screen and (min-width: 1201px) and (max-width: 1360px) {
+    .nav {
+        height: auto;
+        margin-bottom: 0;
+    }
+
+    .img {
+        width: 20em;
+    }
+
+    .information-bar_flex {
+        align-items: center;
+        justify-content: center;
+        grid-template-columns: 30% 40%;
+        gap: 3em;
+    }
+
+    .womanImg {
+        display: none;
+    }
+    
+    .contactBlock {
+        grid-template-columns: 100% 0%;
+    }
+}

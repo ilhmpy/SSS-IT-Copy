@@ -27,6 +27,12 @@ window.addEventListener("load", () => {
         }
     });
 
+    document.querySelectorAll(".link").forEach((link) => {
+        link.addEventListener("click", () => {
+            navHideAdoptiveIsActive = false;
+        })
+    })
+
     document.querySelectorAll(".nav-menu-bar").forEach((menuBar) => {
         menuBar.addEventListener("click", () => {
             const scroll = window.scrollY;
